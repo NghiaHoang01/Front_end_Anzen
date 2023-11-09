@@ -1,0 +1,500 @@
+.element {
+    padding: 25px;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.seacrh__action {
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.seacrh__action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seacrh__action-btn>button {
+    margin-right: 10px;
+}
+
+.seacrh__input__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seacrh__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnEdit,
+.btnDelete,
+.btnImage {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnEdit {
+    color: #03bb03;
+}
+
+.btnDelete {
+    color: #fa2212;
+    margin: 0px 10px;
+}
+
+.btnImage {
+    color: #e6d926;
+}
+
+.ant-radio-wrapper .ant-radio-checked::after {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    visibility: hidden;
+    animation-name: css-dev-only-do-not-override-1me4733-antRadioEffect;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-fill-mode: both;
+    content: "";
+    border: 1px solid var(--yellow);
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: var(--yellow);
+    background-color: var(--yellow);
+    box-shadow: 0 0 0 2px rgb(255 189 47 / 20%) !important;
+}
+
+.ant-radio-inner {
+    border: 1px solid var(--light-grey) !important;
+    z-index: 10;
+}
+
+.ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+    border: 1px solid var(--yellow);
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+    background-color: var(--yellow);
+    border-color: transparent;
+}
+
+.ant-checkbox-checked:not(.ant-checkbox-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+    background-color: var(--yellow);
+    border-color: transparent;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+    border-color: var(--yellow);
+}
+
+.ant-checkbox-wrapper:hover>span>span,
+.ant-checkbox-wrapper:hover>span::after {
+    border: 1px solid var(--yellow) !important;
+}
+
+.ant-checkbox-checked:after {
+    position: absolute;
+    top: 0;
+    inset-inline-start: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    visibility: hidden;
+    border: 2px solid var(--yellow);
+    animation-name: css-dev-only-do-not-override-1me4733-antCheckboxEffect;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    content: "";
+    transition: all 0.3s;
+}
+
+.ant-pagination-item:hover>a {
+    color: var(--yellow);
+}
+
+.ant-pagination .ant-pagination-item-active:hover {
+    border-color: var(--yellow) !important;
+    color: var(--yellow) !important;
+}
+
+.ant-pagination .ant-pagination-item-active:hover a {
+    color: var(--yellow);
+}
+
+.ant-table-wrapper .ant-table-pagination:hover .ant-pagination-item-active {
+    border-color: var(--yellow);
+}
+
+
+.ant-pagination .ant-pagination-item-active a {
+    color: var(--yellow);
+}
+
+.ant-pagination .ant-pagination-item-active {
+    border-color: var(--yellow);
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:first-child {
+    border-start-start-radius: 0px;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th,
+.ant-table-wrapper .ant-table-thead>tr>td {
+    color: var(--black);
+    font-weight: 400;
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+    font-size: 16px;
+    padding: 16px !important;
+}
+
+.ant-pagination-next:hover button,
+.ant-pagination-prev:hover button {
+    color: var(--yellow);
+}
+
+th {
+    background-color: var(--grey) !important;
+    min-width: 60px;
+}
+
+.ant-table-measure-row {
+    display: none;
+}
+
+tr>td {
+    padding: 16px !important;
+    font-size: 15px;
+}
+
+tr:not(:last-child)>td {
+    border-bottom: 1px solid var(--dark-grey) !important;
+}
+
+.tag {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+table {
+    border: 1px solid var(--black);
+    overflow: hidden;
+}
+
+.ant-table-cell::before {
+    background-color: var(--black) !important;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: var(--yellow);
+    box-shadow: 0 2px 0 rgba(252, 249, 97, 0.1);
+}
+
+.ant-btn-primary:not(:disabled):hover {
+    color: #fff;
+    border-color: #ffcf57;
+    background: #ffcf57;
+    box-shadow: 0 2px 0 rgba(252, 249, 97, 0.1);
+}
+
+.ant-btn-default:not(:disabled):hover {
+    box-shadow: 0 2px 0 rgba(252, 249, 97, 0.1);
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+}
+
+.ant-form-item {
+    margin-bottom: 16px;
+}
+
+.ant-picker:hover,
+.ant-picker-focused {
+    border-color: var(--yellow);
+    border-inline-end-width: 1px;
+    box-shadow: 0 0 0 2px rgb(255 189 47 / 20%) !important;
+}
+
+.ant-picker .ant-picker-input>input:focus,
+.ant-picker .ant-picker-input>input-focused {
+    border-color: var(--yellow) !important;
+    border-inline-end-width: 1px;
+    outline: 0;
+    border: none;
+}
+
+.ant-picker-range .ant-picker-active-bar {
+    bottom: -1px;
+    height: 2px;
+    margin-inline-start: 11px;
+    background: var(--yellow);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+    background: var(--yellow);
+}
+
+/* modal */
+.ant-modal .ant-modal-content {
+    padding: 0px;
+}
+
+.ant-modal .ant-modal-header {
+    color: var(--black);
+    padding: 16px 24px;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0px;
+}
+
+.ant-modal-body {
+    padding: 24px;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+    /* padding-bottom: 40px; */
+}
+
+.ant-modal .ant-modal-footer {
+    padding: 10px 16px;
+    border-top: 1px solid #f0f0f0;
+    margin: 0px !important;
+}
+
+/* form */
+.form__input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__input__item>p {
+    margin-bottom: 0px;
+}
+
+.form__input__item--special::before {
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*";
+}
+
+.input__disabled>input:hover {
+    box-shadow: none !important;
+}
+
+.date {
+    width: 300px;
+    font-size: 14px;
+    min-height: 34px;
+}
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+    border: 1px solid var(--yellow);
+}
+
+.parent {
+    width: 300px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.card__edit {
+    background-color: var(--grey);
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.modal--export {
+    padding: 24px;
+}
+
+.text--modal {
+    text-align: center;
+    font-size: 14px;
+}
+
+.modal--image__item:not(:last-child) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.modal--image__item:last-child {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+}
+
+.modal--image__item>p {
+    font-weight: bold;
+    font-size: 15.5px;
+    flex: 1;
+    padding: 0px 12px;
+}
+
+.modal--image__item>p>span {
+    font-weight: 400;
+    padding: 0px;
+}
+
+.modal--image__item>label {
+    font-weight: 700;
+    color: var(--white);
+    background-color: #ffbd2f;
+    font-size: 15.5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal--image__item>label:hover {
+    opacity: 0.75;
+}
+
+.modal--image__item>input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+
+/* modal bill */
+.modal--bill__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.modal--bill__row:first-child {
+    margin-bottom: 18px;
+}
+
+.modal--bill__row__item {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-left: 16px;
+}
+
+.modal--bill__row__item>p {
+    margin-right: 14px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.modal--bill__row>p {
+    flex: 1;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal--bill__row>p:first-child {
+    margin-right: 16px;
+}
+
+.modal--bill__row>p:last-child {
+    margin-left: 16px;
+}
+
+.modal--bill__row>p>span,
+.modal--bill__row__item>p>span {
+    font-weight: 400;
+    color: #000000D9;
+    margin-left: 8px;
+}
+
+.modal--bill__row>p>span {
+    min-width: 264px;
+}
+
+.describe {
+    margin: 24px 0px;
+    font-size: 15px;
+    color: #000000D9;
+}
+
+.table--bill {
+    margin-bottom: 24px;
+}
+
+.modal--bill__title {
+    margin: 24px 0px;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+/* table */
+.table-price {
+    width: 100%;
+    border-radius: 4px;
+    border-spacing: 0px;
+    /* border: 1px solid var(--grey); */
+}
+
+.table-price>tbody {
+    border: none;
+}
+
+.table-price>tbody>tr>th {
+    background-color: var(--white) !important;
+    border-bottom: 1px solid var(--black);
+    padding: 8px;
+    font-size: 14px;
+}
+
+.table-price>tbody>tr>td {
+    padding: 4px 16px !important;
+    font-size: 14px;
+}
+
+.table-price>tbody>tr>td:first-child,
+.table-price>tbody>tr>th:first-child {
+    border-right: 1px solid var(--grey);
+}
+
+.modal--bill__title--child {
+    margin-bottom: 8px;
+}
+
+.modal--bill__title--child>p {
+    font-weight: bold;
+}

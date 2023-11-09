@@ -1,0 +1,30 @@
+.no--stretch {
+    display: flex;
+    justify-content: start !important;
+}
+
+.no--stretch>.seacrh__input__item>.form__input__item {
+    margin-right: 24px;
+}
+
+.form-create__input__item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-create__input__item--special,
+.form-create__input__item--basic {
+    min-width: 150px;
+    line-height: 34px;
+}
+
+.form-create__input__item--special::before {
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*";
+}

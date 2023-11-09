@@ -1,0 +1,59 @@
+.slidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: var(--grey);
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+
+.slidebar>ul>.ant-menu-item-selected {
+    color: var(--dark-red);
+    background-color: var(--white);
+    border-right: 2.5px solid var(--yellow)
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title,
+.ant-menu-vertical .ant-menu-submenu-title {
+    height: 40px;
+    line-height: 40px;
+    padding-inline: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-inline: 0px;
+    margin-block: 0px;
+    width: 100%;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.slidebar>ul>li.ant-menu-item {
+    margin-bottom: 6px !important;
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title {
+    height: 40px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0 16px;
+    overflow: hidden;
+    line-height: 40px;
+    text-overflow: ellipsis;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+    color: var(--dark-red);
+    background-color: transparent;
+}

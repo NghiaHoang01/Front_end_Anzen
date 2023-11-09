@@ -1,0 +1,8 @@
+.basic{
+    min-width: 80px;
+    font-size: 16px;
+}
+
+.center{
+    justify-content: center;
+}

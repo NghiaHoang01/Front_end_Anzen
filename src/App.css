@@ -1,0 +1,120 @@
+html {
+    --antd-wave-shadow-color: #ffbd2f;
+}
+
+.anzen {
+    width: 100%;
+    height: 100vh;
+}
+
+.page {
+    width: 85% !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* change style antd */
+/* select */
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    width: 100%;
+    height: 34px;
+    border-radius: 8px;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector:hover {
+    border: 1px solid var(--yellow) !important;
+    box-shadow: 0 0 0 2px rgb(255 189 47 / 20%) !important;
+}
+
+.ant-select-selector:focus-within {
+    border: 1px solid var(--yellow) !important;
+    box-shadow: 0 0 0 2px rgb(255 189 47 / 20%) !important;
+}
+
+/* input */
+.input {
+    padding: 4px 16px !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 16px;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 8px !important;
+    transition: all 0.2s;
+    height: 34px;
+}
+
+.input--max {
+    width: 300px;
+}
+
+.input--edit {
+    width: 280px;
+}
+
+.input--create {
+    width: 400px;
+}
+
+.input--middle {
+    width: 170px;
+}
+
+.form__input__item--special,
+.seacrh__input__item-title {
+    font-size: 15px !important;
+    margin-bottom: 6px !important;
+}
+
+.ant-picker-range {
+    height: 34px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    display: none;
+}
+
+/* switch */
+.ant-switch.ant-switch-checked {
+    background: var(--yellow);
+}
+
+.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+    background: var(--yellow);
+}
+
+/* menu horizontal */
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected,
+.ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected {
+    color: var(--yellow);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after,
+.ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected::after {
+    border-bottom: 2.5px solid var(--yellow);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected:hover::after,
+.ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-open::after {
+    border-bottom: 2.5px solid var(--yellow);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item:not(.ant-menu-item-selected)::after {
+    border-bottom: 2.5px solid transparent;
+}
+
+.ant-menu-light .ant-menu-item:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected),
+.ant-menu-light .ant-menu-submenu-title:hover:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected) {
+    color: var(--grey);
+}
+
+.ant-select-selection-search {
+    line-height: 34px;
+}
+
+.ant-select-selection-search>input {
+    font-size: 16px;
+}

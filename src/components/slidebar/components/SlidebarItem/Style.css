@@ -1,0 +1,42 @@
+.slidebar-item {
+    display: flex;
+    margin: 5px 0px;
+    text-decoration: none;
+    padding: 12px;
+    align-items: center;
+    font-weight: bold;
+    color: var(--black);
+    font-size: 15px;
+    height: 45px;
+}
+
+.active {
+    background-color: var(--white);
+    border-right: 3px solid var(--yellow);
+    animation: Active 0.5s linear;
+}
+
+.slidebar-item:hover>i,
+.slidebar-item:hover>p {
+    color: var(--light-red);
+}
+
+.slidebar-item>i {
+    min-width: 32px;
+    transition: 0.4s;
+}
+
+.slidebar-item>p {
+    min-width: 130px;
+    transition: 0.4s;
+}
+
+@keyframes Active {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

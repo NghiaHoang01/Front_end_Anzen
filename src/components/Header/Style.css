@@ -1,0 +1,88 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80px;
+    width: 85%;
+    background-color: var(--light-red);
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    line-height: 80px;
+    z-index: 1000;
+}
+
+.header__menu {
+    font-size: 16.5px;
+}
+
+.header__menu>i {
+    cursor: pointer;
+}
+
+.header__infor {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    font-size: 16.5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__infor:hover>.header__logout {
+    display: flex;
+}
+
+.header__infor>i {
+    margin-right: 7px;
+}
+
+.header__infor>p {
+    font-weight: bold;
+}
+
+.header__logout {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--grey);
+    height: 40px;
+    width: 150px;
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+    display: none;
+    animation: showLogout 0.3s ease;
+}
+
+@keyframes showLogout {
+    from {
+        opacity: 0;
+        height: 20px;
+    }
+
+    to {
+        opacity: 1;
+        height: 40px;
+    }
+}
+
+.header__logout>button {
+    margin: auto;
+    width: 100%;
+    padding: 9px 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 2px;
+}
+
+.header__logout>button>i {
+    margin-right: 3px;
+}
+
+.header__logout>button:hover {
+    color: var(--yellow);
+    background-color: var(--font-color);
+}

@@ -1,0 +1,123 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image:linear-gradient(rgba(255,0,0,0),#0c0a0a), url('../../assets/img/backgroundLogin.jpg');
+    opacity: 0.8;
+    display: flex;
+}
+
+.login-element {
+    margin: auto;
+    background-color: var(--white);
+    width: 480px;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.login-element__logo {
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.login-element__logo>img {
+    width: 132px;
+    margin: auto;
+}
+
+.login-element__title {
+    margin-bottom: 42px;
+}
+
+.login-element__title>p {
+    font-size: 24px;
+    color: var(--light-grey);
+}
+
+.login-element__title>p>span {
+    text-transform: uppercase;
+    color: var(--light-red);
+    font-weight: bold;
+}
+
+.login-element__intro {
+    padding-top: 10px;
+}
+
+.login-element__intro>p {
+    font-size: 15.5px;
+    color: var(--dark-grey);
+}
+
+.login-element__intro>p>a {
+    text-decoration: none;
+    color: var(--light-red);
+}
+
+.ant-input {
+    padding: 10px 16px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 16px;
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 24px;
+    transition: all 0.2s;
+}
+
+.ant-input:hover,
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border: 1px solid var(--yellow) ;
+}
+
+.ant-input:focus {
+    box-shadow: 0 0 0 2px rgb(255 189 47 / 20%) !important;
+    border-color: #ffcf57 ;
+    border-right-width: 1px ;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+    border-color: #ffcf57 !important;
+    box-shadow: 0 0 0 2px rgb(255 189 47 / 20%);
+    border-right-width: 1px;
+    outline: 0;
+}
+
+.ant-input-affix-wrapper {
+    padding: 10px 16px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 16px;
+    background-color: var(--white);
+    background-image: none;
+    border: 1px solid var(--grey);
+    border-radius: 24px;
+    transition: all 0.2s;
+}
+
+.container___1_vZB .anticon svg {
+    color: #ffbd2f !important;
+}
+
+.btnLogin{
+    width: 200px;
+    height:40px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:10px;
+    background-color:#f42323;
+}
+
+.btnLogin:hover{
+    background-color:#f42323 !important;
+}
+
+.spin{
+    color: var(--yellow);
+}
+
+.ant-spin .ant-spin-dot-item{
+    background-color: var(--yellow);
+}

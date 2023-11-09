@@ -1,0 +1,21 @@
+:root {
+  --white:#fff;
+  --black:#000;
+  --grey:#cccccc;
+  --dark-grey:#7a7a7a;
+  --light-grey:#d7dadf;
+  --light-red: #f42323;
+  --dark-red:#be0505;
+  --yellow: #ffbd2f;
+  --font-color:#363635;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito,sans-serif';
+}
